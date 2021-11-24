@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit!important;
+}
+
+.custom-padding {
+    padding: 200px 0 100px 0;
+}
+
+.image-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.resume {
+	display: inline-block;
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 8px;
+	border: 1px solid #330067;
+	transition: .5s;
+	margin: 15px 0 0 0;
+}
+
+.resume:hover {
+    background: transparent;
+}
+
+.social .social-icon {
+	font-size: 50px;
+	margin: 30px 15px 0px 0px;
+	color: #000;
+    transition: .5s;
+}
+
+.navbar-toggler-icon:focus {
+    outline: none!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.card {
+    transition: 1s;
+}
+
+.card:hover {
+    box-shadow:  .5rem .85rem 1rem .5rem rgba(0,0,0,.15)!important;
+}
+
+.linkedin:hover,
+.linkedin:focus {
+    color: #0077b5;
+}
+
+.email:hover,
+.email:focus {
+    color: #ce4b3e;
+}
+
+.github:hover,
+.github:focus {
+    color: #330067;
+}
+
+.nav-link{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-icon {
+	font-size: 30px;
+	background: #fff;
+	display: inline-block;
+	padding: 8px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: -1px;
+}
+
+.fa-graduation-cap {
+    font-size: 25px;
+    margin: 0 10px 0 0;
+}
