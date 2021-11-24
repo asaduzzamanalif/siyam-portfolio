@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 .image-item img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .resume {
@@ -27,7 +27,6 @@ h1,h2,h3,h4,h5,h6 {
 	border-radius: 8px;
 	border: 1px solid #330067;
 	transition: .5s;
-	margin: 15px 0 0 0;
 }
 
 .resume:hover {
